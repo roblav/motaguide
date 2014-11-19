@@ -1,7 +1,7 @@
 name: MOTA - Bahamas.com Website Guide
 title: MOTA - Bahamas.com Website Guide
 org: SystemSeed
-base_url: 'http://test'
+base_url: ''
 
 profiles:
   production:

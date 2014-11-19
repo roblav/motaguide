@@ -2,3 +2,13 @@ name: MOTA - Bahamas.com Website Guide
 title: MOTA - Bahamas.com Website Guide
 org: SystemSeed
 base_url: ''
+
+profiles:
+  production:
+    base_url: http://roblav.github.io/motaguide
+    deploy:
+      host: github_pages
+      # use gh-branch for repositories other than <username>.github.io
+      branch: gh-pages
+      # use master branch for <username>.github.io repository
+      #branch: master

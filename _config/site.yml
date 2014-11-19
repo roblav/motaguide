@@ -1,7 +1,7 @@
 name: MOTA - Bahamas.com Website Guide
 title: MOTA - Bahamas.com Website Guide
 org: SystemSeed
-base_url: 'http://roblav.github.io/motaguide/'
+base_url: 'http://test'
 
 profiles:
   production:

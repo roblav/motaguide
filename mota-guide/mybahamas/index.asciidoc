@@ -1,0 +1,143 @@
+---
+layout: page-basic
+icons: font
+---
+
+[[mybahamas]]
+== MyBahamas
+
+A new MyBahamas facility was built out that enables users to register for the site. Once registered they are able to favorite selected pages from bahamas.com as well as manage their account preferences. The new unified login screen is available at
+http://www.bahamas.com/mybahamas[_www.bahamas.com/mybahamas_].
+
+*Areas to cover:*
+
+* Show the new MyBahamas functionality
+* Allow users to register and maintain their bahamas account.
+* Allow users to manage their favourite content.
+
+
+[[mybahamas-signup]]
+=== MyBahamas SignUp
+
+image:mybahamas-signup.jpg[image]
+
+When a user signs up or logins in they will be directed to the
+dashboard.
+
+[[dashboard]]
+=== Dashboard
+
+The available MyBahamas sections available from the dashboard.
+
+[cols=",",options="header",]
+|=======================================================================
+|*My favorites* |Manage favorites
+|*My account* |Manage contact details and account information
+
+|*My profile* |Manage profile, people to people details, subscription
+preferences
+
+|*Logout* |Logout of MyBahamas
+|=======================================================================
+
+[[mybahamas-variables]]
+=== MyBahamas Variables
+
+Notes
+===
+Configuration > Bahamas.com > MyBahamas Variables
+===
+
+http://www.bahamas.com/admin/config/bahamas/admin/variables[_http://www.bahamas.com/admin/config/bahamas/admin/variables_]
+
+[cols=",",options="header",]
+|=======================================================================
+|*Password recovery email* |Users can select to reset their password via
+a reset link sent to them via the email address registered to their
+account.
+|*Welcome Email* |Welcome email sent when they sign up.
+|=======================================================================
+
+[[my-favorites]]
+=== My Favorites
+
+For each of the following content types on the site MyBahamas users are
+able to favorite individual pages using an ‘Add to favorites’ button.
+
+* My Favorite Islands
+* My Favorite Things to Do
+* My Favorite Pages
+
+image:mybahamas-myfavorites.png[image]
+
+1. ‘Add to favorites’ button
+2. Button displayed on a page
+3. Favorite island listed on the My Favorites section
+4. ‘Remove from favorites’ link
+5. Mini pager displayed when more than 3 pages are listed in a section
+
+
+[[ad-server]]
+=== Ad-server
+
+Bahamas.com features retating banner adverts on the homepage. A new tool built right into bahamas.com that enables the adverts to be managed from within the CMS environment.
+
+image:ad-server.png[image]
+
+[[add-a-simple-ad]]
+==== Add a Simple Ad
+
+[cols="",options="header",]
+|===================================
+|_Content > Add Content > Simple Ad_
+|===================================
+
+[cols=",",options="header",]
+|=======================================================================
+|*Title* |Title of the Simply Ad
+|*Ad Type* |Image Ad, Text Ad, Flash Ad
+
+|*Ad Image* |Upload an image for this Ad.
+
+|*URL Address* |Where to direct users when they click on the ad.
+
+|*Active Date* |Date when the ad is active
+
+|*End Date* |Date when the ad stops being active
+
+|*This ad is active* |Please use this field to show or hide ads even if
+the ad is active and published.
+|=======================================================================
+
+As long as an Ad is set to be ‘Active’ and it falls within the ‘Active
+Date’ and ‘End Date’ the Ad will display on the frontpage.
+
+[[order-the-ads-list]]
+==== Order the Ads list
+
+Notes
+===
+Content > Ads list > Order
+===
+
+Use the drag handle next to each Ad to reorder them and save the new order.
+
+[[ad-statistics]]
+==== Ad Statistics
+
+Notes
+===
+Content > Ad List
+===
+
+http://www.bahamas.com/admin/content/simpleads[_http://www.bahamas.com/admin/content/simpleads_]
+
+On the ‘Advertisement Listing’ page next to each Ad there is a
+‘Statistics’ link.
+
+image:ad-listings.png[image]
+
+Or when when view an Ad, statistics are available from the ‘Ad
+Staistics’ tab.
+
+image:ad-stats.png[image]

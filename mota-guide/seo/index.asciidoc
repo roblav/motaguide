@@ -1,0 +1,127 @@
+---
+layout: page-basic
+icons: font
+---
+
+= MOTA test
+
+[[seo]]
+== SEO
+
+In this epic we set out to deliver much needed improvements in terms of
+the SEO capabilities of the site. This included implementing best
+practices such as a dynamically updating XML Sitemap, canonical URLs,
+automatic redirects from internal to external URLs (no more /node/123
+style URLs), as well as adding advanced tools to enable MOTA to control
+keywords, meta descriptions, and other SEO tags on a page by page basis.
+
+*Areas to cover:*
+
+* Allow users to define the url redirects.
+* Show checking seo properties for node while adding / editing
+* Allow users to defined all seo properties while content definition.
+
+URL Redirects and Meta tags settings are available at the bottom of the
+content edit form as vertical tabs, as shown in the image below.
+
+image:url-redirect.png[image]
+
+[[url-redirects]]
+=== URL redirects
+
+[cols=",",options="header",]
+|=======================================================================
+|*From* |Enter an internal Drupal path or path alias to redirect (e.g.
+node/123 or taxonomy/term/123). Fragment anchors (e.g. #anchor) are not
+allowed.
+|*To* |Enter an internal Drupal path, path alias, or complete external
+URL (like http://example.com/) to redirect to. Use <front> to redirect
+to the front page.
+
+|*Language* |A redirect set for a specific language will always be used
+when requesting this page in that language, and takes precedence over
+redirects set for All languages.
+
+|*Advanced options* |
+
+|Redirect status |You can find more information about HTTP redirect
+status codes at
+http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#3xx_Redirection[_http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#3xx_Redirection_]
+|=======================================================================
+
+[[xml-sitemap]]
+=== XML sitemap
+
+[cols=",",options="header",]
+|=======================================================================
+|*Inclusion* |Options: Include / Exclude
+|*Priority* |The priority of this URL relative to other URLs on your
+site. Range from 1.0 - 0.0
+|=======================================================================
+
+[[meta-tags]]
+=== Meta tags
+
+[cols=",",options="header",]
+|=======================================================================
+|*Page title* |The text to display in the title bar of a visitor's web
+browser when they view this page. This meta tag may also be used as the
+title of the page when a visitor bookmarks or favorites this page.
+|*Description* |A brief and concise summary of the page's content,
+preferably 150 characters or less. The description meta tag may be used
+by search engines to display a snippet about the page in search results.
+
+|*Abstract* |A brief and concise summary of the page's content,
+preferably 150 characters or less. The abstract meta tag may be used by
+search engines for archiving purposes.
+
+|*Keywords* |A comma-separated list of keywords about the page. This
+meta tag is not supported by most search engines.
+
+|*Open Graph* |The Open Graph meta tags are used control how Facebook,
+LinkedIn an other social networking sites interpret the site's content.
+
+|*Advanced* |This section contains advanced options.
+|=======================================================================
+
+Note: The token based defaults are used if none are supplied on the node
+form.
+
+[[tokens]]
+==== Tokens
+
+Tokens, e.g. "[node:summary]", automatically insert the corresponding
+information from that field or value, which helps to avoid redundant
+meta data and possible search engine penalization; see the "Browse
+available tokens" popup, available where tokens are used, for more
+details.
+
+*Example:*
+
+For the island page Andros
+http://www.bahamas.com/islands/andros[_http://www.bahamas.com/islands/andros_]
+
+[cols=",",options="header",]
+|============================================================
+|*MetaTag Page title:* |[node:title] | [site:name]
+|*HTML Page title* |Andros | The Official Site of The Bahamas
+|============================================================
+
+[[editing-defaults]]
+==== Editing defaults
+
+Notes
+===
+Configuration > Search and metadata > Metatag
+===
+
+http://www.bahamas.com/admin/config/search/metatags[_http://www.bahamas.com/admin/config/search/metatags_]
+
+Listed on this page are the metatag defaults that have been setup.
+
+image:metatags.png[image]
+
+For example to change the defaults for ‘Content’ click the ‘Edit’ button
+next to that option.
+
+On the edit form change the defaults, and save your changes.

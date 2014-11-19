@@ -1,0 +1,84 @@
+---
+layout: base
+icons: font
+---
+
+= MOTA test
+
+[[contents]]
+Contents
+--------
+
+* link:/mota-guide/home-page/[_Home Page_]
+
+* link:/mota-guide/pressroom/[_Pressroom and Media Contacts_]
+
+** link:/mota-guide/pressroom/#pressroom[_Pressroom_]
+
+** link:/pressroom/#add-new-resource-to-be-displayed-in-the-pressroom[_Add new
+resource to be displayed in the Pressroom_]
+
+** link:mota-guide/pressroom/#media-contacts[_Media Contacts_]
+
+** link:/mota-guide/pressroom/#set-the-e-mail-address-for-media-contact-submission[_Set the E-mail address for Media contact submission_]
+
+** link:/mota-guide/pressroom/#view-media-contact-form-submissions[_View Media Contact Form
+Submissions_]
+
+* link:/mota-guide/content-management/[_Content Management_]
+
+** link:/mota-guide/content-management/#content-scheduling-options[_Content Scheduling Options_]
+
+** link:#/mota-guide/content-management/scheduling-options[_Scheduling options_]
+
+** link:/mota-guide/content-management/#managing-media[_Managing media_]
+
+** link:/mota-guide/content-management/#adding-media[_Adding media_]
+
+** link:/mota-guide/content-management/#add-media-modal-box[_Add media modal box_]
+
+** link:/mota-guide/content-management/#edit-an-existing-image[_Edit an existing Image_]
+
+** link:/mota-guide/content-management/#site-wide-search[_Site wide search_]
+
+** link:/mota-guide/content-management/#filter-search-options[_Filter search options_]
+
+* link:/mota-guide/seo/[_SEO_]
+
+** link:/mota-guide/seo/#url-redirects[_URL redirects_]
+
+** link:/mota-guide/seo/#xml-sitemap[_XML sitemap_]
+
+** link:/mota-guide/seo/#meta-tags[_Meta tags_]
+
+** link:/mota-guide/seo/#tokens[_Tokens_]
+
+** link:/mota-guide/seo/#editing-defaults[_Editing defaults_]
+
+* link:/mota-guide/mybahamas/[_MyBahamas_]
+
+** link:/mota-guide/mybahamas/#mybahamas-signup[_MyBahamas SignUp_]
+
+** link:/mota-guide/mybahamas/#dashboard[_Dashboard_]
+
+** link:/mota-guide/mybahamas/#mybahamas-variables[_MyBahamas Variables_]
+
+** link:/mota-guide/mybahamas/#my-favorites[_My Favorites_]
+
+* link:/mota-guide/ad-server/[_Ad-server_]
+
+** link:/mota-guide/ad-server/#add-a-simple-ad[_Add a Simple Ad_]
+
+** link:/mota-guide/ad-server/#order-the-ads-list[_Order the Ads list_]
+
+** link:/mota-guide/ad-server/#ad-statistics[_Ad Statistics_]
+
+* link:/mota-guide/media-gallery/[_Media Gallery_]
+
+** link:/mota-guide/media-gallery/#overview[_Overview_]
+
+** link:/mota-guide/media-gallery/#add-a-new-gallery[_Add a new Gallery_]
+
+** link:/mota-guide/media-gallery/#add-a-gallery-collection[_Add a Gallery Collection_]
+
+** link:/mota-guide/media-gallery/#view-individual-gallery[_View individual Gallery_]

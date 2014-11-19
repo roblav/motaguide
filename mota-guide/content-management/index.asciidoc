@@ -1,0 +1,127 @@
+---
+layout: page-basic
+icons: font
+---
+
+= MOTA test
+
+
+[[content-management]]
+== Content Management
+
+Our initial site audits and conversations with MOTA had identified a number of problems with the CMS itself. It was difficult for content editors to find content within the CMS, and editing content was cumbersome with no WYSIWYG editor. There were many duplications and redundant parts of the CMS that made it generally confusing to use.
+There was no facility to schedule publishing in the future, no ability to optimise content for search engines and the site-wide search facility was lacking both in accuracy and speed. In this epic, we set out to rectify all of these issues.
+
+*Areas to cover:*
+
+* Show better content management. (Ease of search and filter options)
+
+* Show Content Scheduling options
+
+* Show site wide media management and better embedding of media in content
+
+* Show Site wide search with Apache solr search for better search and filter options to end users.
+
+
+[[content-management-1]]
+=== Content Management
+
+Use the filter options to find content you’re looking for.
+
+*Filter options:* Title, Type, Author, Published, Vocabulary, Island.
+
+image:cms-content-page.jpg[image]
+
+[[content-scheduling-options]]
+=== Content Scheduling Options
+
+By setting a ‘Published on’ date and a ‘Unpublished on’ date you can
+control when to publish and unpublish content for viewing on the
+website.
+
+Scheduling options settings are available at the bottom of the content
+edit form as one of the vertical tabs, as shown in the image below.
+
+image:scheduling-options.png[image]
+
+[[scheduling-options]]
+==== Scheduling options
+
+Leave the date blank for no scheduled publishing.
+
+[cols=",",options="header",]
+|===========================================================
+|*Publish on* |Options: Date, Time e.g. 2014-10-22, 11:03:56
+|*Unpublish on* |Options: Date, Time
+|===========================================================
+
+
+[[managing-media]]
+=== Managing media
+
+
+==== Adding media
+
+There are several ways that you can add media to the CMW, via WYSIWGY,
+‘Content > Add files’, when you’re adding media when creating content.
+
+There are a couple of options to add images and videos using the media
+management tool.
+
+==== Add media modal box
+
+image:media-modal-box.png[image]
+
+[cols=",",options="header",]
+|=======================================================================
+|*Upload* |Upload image. Files must be less than 8 MB. Allowed file
+types: png gif jpg jpeg.
+|*Web* a|
+Enter a URL to a file or media resource. Many media providers also
+support identifying media via the embed code used to embed the media
+into external websites.
+
+Supported internet media providers: YouTube Vimeo.
+
+|*YouTube* |Input a phrase or tags to search.
+
+|*Library* |Search the library of files currently available to reuse.
+|=======================================================================
+
+[[edit-an-existing-image]]
+==== Edit an existing Image
+
+[cols=",",options="header",]
+|=======================================================================
+|*Alt Text* |Alternative text is used by screen readers, search engines,
+and when the image cannot be loaded. By adding alt text you improve
+accessibility and search engine optimization.
+|*Title Text* |Title text is used in the tool tip when a user hovers
+their mouse over the image. Adding title text makes it easier to
+understand the context of an image and improves usability
+
+|*Replace file* a|
+This file will replace the existing file. This action cannot be undone.
+
+Files must be less than 8 MB.
+
+|*Manual Crop* |Select the image style to crop, the corresponding
+cropping tool will open.
+
+|*Expires* |Set an expiry date for the image. Just for informational
+purposes only.
+
+|*Acknowledgement* |Add information about where the image is from, who
+the photographer is for example.
+|=======================================================================
+
+
+[[site-wide-search]]
+==== Site wide search
+
+image:sitewide-search.png[image]
+
+[[filter-search-options]]
+===== Filter search options
+
+The new search page displays filter options in the left sidebar. Simply select the filter option you’re interested in to display more specific search results.

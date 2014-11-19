@@ -1,0 +1,109 @@
+---
+layout: page-basic
+icons: font
+---
+
+
+[[media-gallery]]
+=== Media Gallery
+
+A brand new media gallery was designed and developed which enables MOTA to feature it’s best images and videos in a stunning integrated gallery. The new galleries are available at
+http://www.bahamas.com/galleries[_http://www.bahamas.com/galleries_].
+
+*Areas to cover:*
+
+* Show gallery functionality
+* Show grouping of gallery collections
+* Show embedding of media types images and video
+
+[[overview]]
+=== Overview
+
+Create a galleries, add them to a gallery collection. You can have
+multiple galleries as part of a gallery collection. Each of the
+galleries are linked as a button at the bottom of the gallery collection page.
+
+Any gallery collection that has ‘Publishing options - Promoted to front page’ checked will be added to the gallery page http://www.bahamas.com/galleries[_http://www.bahamas.com/galleries_]
+
+image:gallery-overview.jpg[image]
+
+1. Gallery Collection - Title
+2. Gallery Collection - Featured Image
+3. {Active} Gallery Title
+4. Gallery buttons
+
+[[add-a-new-gallery]]
+=== Add a new Gallery
+
+Note
+===
+Content > Add Content > Gallery
+===
+
+[cols=",",options="header",]
+|=======================================================================
+|*Title* |Title of the gallery
+|*Body* |
+
+|*Featured image* |This image is used as the gallery button at the
+bottom of the gallery collection.
+
+|Bahamas Gallery Media |
+
+|- Media |Upload an image or video
+
+|- Title |The title and description are displayed over the image at the
+bottom. (Image only)
+
+|- Description |Use this to provide any relate information about the
+image.
+|=======================================================================
+
+image:gallery-features.jpg[image]
+
+1. Bahamas logo overlay
+2. Image title and description
+3. Media filter: All, image, video
+4. Image download button
+5. Media thumbnails
+6. Other galleries to view that are part of this gallery collection
+
+
+[[add-a-gallery-collection]]
+=== Add a Gallery Collection
+
+Note
+===
+Content > Add Content > Gallery Collection
+===
+
+[cols=",",options="header",]
+|=======================================================================
+|*Title* |Title of the gallery collection
+|*Body* |Text displayed at the top of the Gallery Collection page.
+
+|*Galleries* |Autocomplete search field, use this to add one or more
+galleries.
+
+|*Featured image* |This image is used as the gallery collection image on
+the gallery page.
+
+|Publishing options |
+
+|- Promoted to front page |Check this to add the gallery collection to
+the gallery page.
+|=======================================================================
+
+[[view-individual-gallery]]
+=== View individual Gallery
+
+Notes
+===
+Content page - Filter: Type -> Gallery
+===
+
+http://www.bahamas.com/admin/content[_http://www.bahamas.com/admin/content_]
+
+On the Admin Content page use the filter option ‘Type -> Gallery’ to only show ‘Gallery’ content.
+
+Click on the title to view the gallery node.

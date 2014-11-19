@@ -1,0 +1,96 @@
+---
+layout: page-basic
+icons: font
+---
+
+= MOTA test
+
+
+[[pressroom-and-media-contacts]]
+== Pressroom and Media Contacts
+
+Given that the new website was missing a pressroom section, we set out
+to develop one in this epic. This is now available at
+http://www.bahamas.com/pressroom[_http://www.bahamas.com/pressroom_].
+Additionally, a new media contacts database was developed which is
+acessible at
+http://www.bahamas.com/media-contact/add[_http://www.bahamas.com/media-contact/add_].
+
+[[pressroom]]
+=== Pressroom
+
+
+image:pressroom-overview.jpg[image]
+
+1. Search filter: By Island or search phrase
+2. Resource listing: Displaying title, post date, primary image, summary
+text.
+3. Pager listing to navigate to older listings.
+4. Link to Media Contacts section.
+
+
+[[add-new-resource-to-be-displayed-in-the-pressroom]]
+Add new resource to be displayed in the Pressroom
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[NOTE]
+====
+Content > Add Content > Resource
+====
+
+[cols=",",options="header",]
+|=======================================================================
+|*Title* |Title of the resource
+|*Language* |-
+
+|*Date* |Select the date of publishing to be shown on the resource
+listing page.
+
+|*Image* |Upload the image to be shown on resource listing pages.
+
+|*Files* |Upload the files to be added to the resource page. You can
+upload multiple files.
+
+|*Island* |Select the island to which this resource belongs too. This
+will help users to filter resources per islands.
+
+|*Body* |Content to be shown on resource page.
+
+|*(Edit summary)* |By default the system will trim a summary of the body
+to display on the Pressroom page. If you want to customise the summary
+you can click on (Edit summary) and add the summary text.
+
+|*Resource Type* |Select the type of resource content.
+|=======================================================================
+
+[[media-contacts]]
+=== Media Contacts
+
+http://www.bahamas.com/media-contact/add[_http://www.bahamas.com/media-contact/add_]
+
+Media contacts form allows people/companies to register as a media
+contact.
+
+image:media-contact-form.png[image]
+
+[[set-the-e-mail-address-for-media-contact-submission]]
+==== Set the E-mail address for Media contact submission
+
+[NOTE]
+====
+Configuration > Bahamas.com > Media Contact settings
+====
+
+The Media Contact form submissions get emailed to the email listed here.
+
+
+[[view-media-contact-form-submissions]]
+==== View Media Contact Form Submissions
+
+http://www.bahamas.com/admin/structure/entityform_types/manage/media_contact/submissions/entityforms_admin_page[_h_]http://www.bahamas.com/admin/structure/entityform_types/manage/media_contact/submissions/entityforms_admin_page[_ttp://www.bahamas.com/admin/structure/entityform_types/manage/media_contact/submissions/entityforms_admin_page_]
+
+image:media-contact.jpg[image]
+
+1. Toggle between viewing the form submissions as a page or a table.
+2. Check multiple form submissions to delete them all.
+3. Download the form submissions as an XML file or a CSV file.

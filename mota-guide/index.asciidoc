@@ -1,0 +1,52 @@
+---
+layout: page-basic
+icons: font
+---
+
+= MOTA test
+
+
+[[home-page]]
+Home Page
+---------
+
+In the first epic, we set out to replace the homepage map experience
+with a fresh design based on visuals supplied by the RAPP team. Given
+that the old map experience was powered by Adobe Flash and therefore not
+accessible to a wide range of users or search engines, one of the
+primary goals was to develop the map using modern accessible
+technologies.
+
+*Areas to cover:*
+
+* Updating individual island details
+
+image:homepage-map.jpg[image]
+
+1. Island name
+2. Slogan
+3. Featured Image
+4. Short description
+5. Color Swatch - Background color value e.g. #faaf3b displaying as orange
+
+[NOTE]
+====
+Edit an Island page e.g. http://www.bahamas.com/islands/andros_
+====
+
+When editing an island page the Homepage Map content is at the bottom of
+the edit form.
+
+[cols=",",options="header",]
+|=======================================================================
+|Homepage Map | |
+
+|*Slogan* |e.g. “Boating capital of the world”
+
+|*Featured Image* |Upload an image
+
+|*Short Description* |e.g. “Fall in love with the colonial charm…”
+
+|*Color Swatch* |Background color value as HTML hex color e.g. #faaf3b
+displays as orange.
+|=======================================================================

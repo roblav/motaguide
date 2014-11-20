@@ -179,61 +179,29 @@
   <div class="row region--content">
     <div class="large-12 columns">
       <div class="sect1">
-      <h2 id="content-management">Content Management</h2>
+      <h2 id="_ad_server">Ad-server</h2>
       <div class="sectionbody">
       <div class="paragraph">
-      <p>Our initial site audits and conversations with MOTA had identified a number of problems with the CMS itself. It was difficult for content editors to find content within the CMS, and editing content was cumbersome with no WYSIWYG editor. There were many duplications and redundant parts of the CMS that made it generally confusing to use.
-      There was no facility to schedule publishing in the future, no ability to optimise content for search engines and the site-wide search facility was lacking both in accuracy and speed. In this epic, we set out to rectify all of these issues.</p>
+      <p>Bahamas.com features retating banner adverts on the homepage. A new tool built right into bahamas.com that enables the adverts to be managed from within the CMS environment.</p>
       </div>
       <div class="paragraph">
-      <p><strong>Areas to cover:</strong></p>
-      </div>
-      <div class="ulist">
-      <ul>
-      <li>
-      <p>Show better content management. (Ease of search and filter options)</p>
-      </li>
-      <li>
-      <p>Show Content Scheduling options</p>
-      </li>
-      <li>
-      <p>Show site wide media management and better embedding of media in content</p>
-      </li>
-      <li>
-      <p>Show Site wide search with Apache solr search for better search and filter options to end users.</p>
-      </li>
-      </ul>
+      <p><span class="image"><img src="/images/ad-server.png" alt="image"></span></p>
       </div>
       <div class="sect2">
-      <h3 id="content-management-1">Content Management</h3>
+      <h3 id="_add_a_simple_ad">Add a Simple Ad</h3>
+      <div class="admonitionblock note">
+      <table>
+      <tr>
+      <td class="icon">
+      <div class="title">Note</div>
+      </td>
+      <td class="content">
       <div class="paragraph">
-      <p>Use the filter options to find content you’re looking for.</p>
+      <p>Content &gt; Add Content &gt; Simple Ad</p>
       </div>
-      <div class="paragraph">
-      <p><strong>Filter options:</strong> Title, Type, Author, Published, Vocabulary, Island.</p>
-      </div>
-      <div class="paragraph">
-      <p><span class="image"><img src="/images/cms-content-page.jpg" alt="image"></span></p>
-      </div>
-      </div>
-      <div class="sect2">
-      <h3 id="content-scheduling-options">Content Scheduling Options</h3>
-      <div class="paragraph">
-      <p>By setting a ‘Published on’ date and a ‘Unpublished on’ date you can
-      control when to publish and unpublish content for viewing on the
-      website.</p>
-      </div>
-      <div class="paragraph">
-      <p>Scheduling options settings are available at the bottom of the content
-      edit form as one of the vertical tabs, as shown in the image below.</p>
-      </div>
-      <div class="paragraph">
-      <p><span class="image"><img src="/images/scheduling-options.png" alt="image"></span></p>
-      </div>
-      <div class="sect3">
-      <h4 id="scheduling-options">Scheduling options</h4>
-      <div class="paragraph">
-      <p>Leave the date blank for no scheduled publishing.</p>
+      </td>
+      </tr>
+      </table>
       </div>
       <table class="tableblock frame-all grid-all spread">
       <colgroup>
@@ -242,132 +210,95 @@
       </colgroup>
       <thead>
       <tr>
-      <th class="tableblock halign-left valign-top"><strong>Publish on</strong></th>
-      <th class="tableblock halign-left valign-top">Options: Date, Time e.g. 2014-10-22, 11:03:56</th>
+      <th class="tableblock halign-left valign-top"><strong>Title</strong></th>
+      <th class="tableblock halign-left valign-top">Title of the Simply Ad</th>
       </tr>
       </thead>
       <tbody>
       <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Unpublish on</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Options: Date, Time</p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ad Type</strong></p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock">Image Ad, Text Ad, Flash Ad</p></td>
+      </tr>
+      <tr>
+      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Ad Image</strong></p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock">Upload an image for this Ad.</p></td>
+      </tr>
+      <tr>
+      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URL Address</strong></p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock">Where to direct users when they click on the ad.</p></td>
+      </tr>
+      <tr>
+      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Active Date</strong></p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock">Date when the ad is active</p></td>
+      </tr>
+      <tr>
+      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>End Date</strong></p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock">Date when the ad stops being active</p></td>
+      </tr>
+      <tr>
+      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>This ad is active</strong></p></td>
+      <td class="tableblock halign-left valign-top"><p class="tableblock">Please use this field to show or hide ads even if
+      the ad is active and published.</p></td>
       </tr>
       </tbody>
       </table>
+      <div class="paragraph">
+      <p>As long as an Ad is set to be ‘Active’ and it falls within the ‘Active Date’ and ‘End Date’ the Ad will display on the frontpage.</p>
       </div>
       </div>
       <div class="sect2">
-      <h3 id="managing-media">Managing media</h3>
-      <div class="sect3">
-      <h4 id="_adding_media">Adding media</h4>
-      <div class="paragraph">
-      <p>There are several ways that you can add media to the CMW, via WYSIWGY,
-      ‘Content &gt; Add files’, when you’re adding media when creating content.</p>
-      </div>
-      <div class="paragraph">
-      <p>There are a couple of options to add images and videos using the media
-      management tool.</p>
-      </div>
-      </div>
-      <div class="sect3">
-      <h4 id="_add_media_modal_box">Add media modal box</h4>
-      <div class="paragraph">
-      <p><span class="image"><img src="/images/media-modal-box.png" alt="image"></span></p>
-      </div>
-      <table class="tableblock frame-all grid-all spread">
-      <colgroup>
-      <col style="width: %;">
-      <col style="width: %;">
-      </colgroup>
-      <thead>
+      <h3 id="order-the-ads-list">Order the Ads list</h3>
+      <div class="admonitionblock note">
+      <table>
       <tr>
-      <th class="tableblock halign-left valign-top"><strong>Upload</strong></th>
-      <th class="tableblock halign-left valign-top">Upload image. Files must be less than 8 MB. Allowed file
-      types: png gif jpg jpeg.</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Web</strong></p></td>
-      <td class="tableblock halign-left valign-top"><div><div class="paragraph">
-      <p>Enter a URL to a file or media resource. Many media providers also
-      support identifying media via the embed code used to embed the media
-      into external websites.</p>
-      </div>
+      <td class="icon">
+      <div class="title">Note</div>
+      </td>
+      <td class="content">
       <div class="paragraph">
-      <p>Supported internet media providers: YouTube Vimeo.</p>
-      </div></div></td>
+      <p>Content &gt; Ads list &gt; Order</p>
+      </div>
+      </td>
       </tr>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>YouTube</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Input a phrase or tags to search.</p></td>
-      </tr>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Library</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Search the library of files currently available to reuse.</p></td>
-      </tr>
-      </tbody>
       </table>
       </div>
-      <div class="sect3">
-      <h4 id="edit-an-existing-image">Edit an existing Image</h4>
-      <table class="tableblock frame-all grid-all spread">
-      <colgroup>
-      <col style="width: %;">
-      <col style="width: %;">
-      </colgroup>
-      <thead>
-      <tr>
-      <th class="tableblock halign-left valign-top"><strong>Alt Text</strong></th>
-      <th class="tableblock halign-left valign-top">Alternative text is used by screen readers, search engines,
-      and when the image cannot be loaded. By adding alt text you improve
-      accessibility and search engine optimization.</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Title Text</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Title text is used in the tool tip when a user hovers
-      their mouse over the image. Adding title text makes it easier to
-      understand the context of an image and improves usability</p></td>
-      </tr>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Replace file</strong></p></td>
-      <td class="tableblock halign-left valign-top"><div><div class="paragraph">
-      <p>This file will replace the existing file. This action cannot be undone.</p>
-      </div>
       <div class="paragraph">
-      <p>Files must be less than 8 MB.</p>
-      </div></div></td>
-      </tr>
+      <p>Use the drag handle next to each Ad to reorder them and save the new
+      order.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="ad-statistics">Ad Statistics</h3>
+      <div class="admonitionblock note">
+      <table>
       <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Manual Crop</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Select the image style to crop, the corresponding
-      cropping tool will open.</p></td>
+      <td class="icon">
+      <div class="title">Note</div>
+      </td>
+      <td class="content">
+      <div class="paragraph">
+      <p>Content &gt; Ad List</p>
+      </div>
+      </td>
       </tr>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Expires</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Set an expiry date for the image. Just for informational
-      purposes only.</p></td>
-      </tr>
-      <tr>
-      <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Acknowledgement</strong></p></td>
-      <td class="tableblock halign-left valign-top"><p class="tableblock">Add information about where the image is from, who
-      the photographer is for example.</p></td>
-      </tr>
-      </tbody>
       </table>
       </div>
-      <div class="sect3">
-      <h4 id="site-wide-search">Site wide search</h4>
       <div class="paragraph">
-      <p><span class="image"><img src="/images/sitewide-search.png" alt="image"></span></p>
+      <p><a href="http://www.bahamas.com/admin/content/simpleads"><em>http://www.bahamas.com/admin/content/simpleads</em></a></p>
       </div>
-      <div class="sect4">
-      <h5 id="filter-search-options">Filter search options</h5>
       <div class="paragraph">
-      <p>The new search page displays filter options in the left sidebar. Simply select the filter option you’re interested in to display more specific search results.</p>
+      <p>On the ‘Advertisement Listing’ page next to each Ad there is a
+      ‘Statistics’ link.</p>
       </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="/images/ad-listings.png" alt="image"></span></p>
       </div>
+      <div class="paragraph">
+      <p>Or when when view an Ad, statistics are available from the ‘Ad
+      Staistics’ tab.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="/images/ad-stats.png" alt="image"></span></p>
       </div>
       </div>
       </div>
